@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F87E5A4A2B4C03610033609D /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E5A492B4C03610033609D /* ClimbStairs.swift */; };
+		F87E5A4C2B4C05570033609D /* MergeSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E5A4B2B4C05570033609D /* MergeSortedArrays.swift */; };
 		F8948D3C2B4BF64700F6D4F2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8948D3B2B4BF64700F6D4F2 /* main.swift */; };
 		F8948D432B4BF6A900F6D4F2 /* SearhInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8948D422B4BF6A900F6D4F2 /* SearhInsertPosition.swift */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F87E5A492B4C03610033609D /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
+		F87E5A4B2B4C05570033609D /* MergeSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArrays.swift; sourceTree = "<group>"; };
 		F8948D382B4BF64700F6D4F2 /* algorithms_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms_swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8948D3B2B4BF64700F6D4F2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F8948D422B4BF6A900F6D4F2 /* SearhInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearhInsertPosition.swift; sourceTree = "<group>"; };
@@ -61,6 +65,8 @@
 			children = (
 				F8948D3B2B4BF64700F6D4F2 /* main.swift */,
 				F8948D422B4BF6A900F6D4F2 /* SearhInsertPosition.swift */,
+				F87E5A492B4C03610033609D /* ClimbStairs.swift */,
+				F87E5A4B2B4C05570033609D /* MergeSortedArrays.swift */,
 			);
 			path = algorithms_swift;
 			sourceTree = "<group>";
@@ -124,7 +130,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8948D3C2B4BF64700F6D4F2 /* main.swift in Sources */,
+				F87E5A4C2B4C05570033609D /* MergeSortedArrays.swift in Sources */,
 				F8948D432B4BF6A900F6D4F2 /* SearhInsertPosition.swift in Sources */,
+				F87E5A4A2B4C03610033609D /* ClimbStairs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
