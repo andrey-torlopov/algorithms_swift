@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E4086C002B51CB2100AB2B79 /* RemoveDuplicatesFromSortedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4086BFF2B51CB2100AB2B79 /* RemoveDuplicatesFromSortedList.swift */; };
+		E48086CD2B540F2100BD3DE5 /* HappyNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = E48086CC2B540F2100BD3DE5 /* HappyNumber.swift */; };
 		F87E5A4A2B4C03610033609D /* ClimbStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E5A492B4C03610033609D /* ClimbStairs.swift */; };
 		F87E5A4C2B4C05570033609D /* MergeSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87E5A4B2B4C05570033609D /* MergeSortedArrays.swift */; };
 		F8948D3C2B4BF64700F6D4F2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8948D3B2B4BF64700F6D4F2 /* main.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E4086BFF2B51CB2100AB2B79 /* RemoveDuplicatesFromSortedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicatesFromSortedList.swift; sourceTree = "<group>"; };
+		E48086CC2B540F2100BD3DE5 /* HappyNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappyNumber.swift; sourceTree = "<group>"; };
 		F87E5A492B4C03610033609D /* ClimbStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClimbStairs.swift; sourceTree = "<group>"; };
 		F87E5A4B2B4C05570033609D /* MergeSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSortedArrays.swift; sourceTree = "<group>"; };
 		F8948D382B4BF64700F6D4F2 /* algorithms_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = algorithms_swift; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,9 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				F8948D3B2B4BF64700F6D4F2 /* main.swift */,
+				E48086CC2B540F2100BD3DE5 /* HappyNumber.swift */,
 				F8948D422B4BF6A900F6D4F2 /* SearhInsertPosition.swift */,
 				F87E5A492B4C03610033609D /* ClimbStairs.swift */,
 				F87E5A4B2B4C05570033609D /* MergeSortedArrays.swift */,
+				E4086BFF2B51CB2100AB2B79 /* RemoveDuplicatesFromSortedList.swift */,
 			);
 			path = algorithms_swift;
 			sourceTree = "<group>";
@@ -99,7 +105,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1510;
-				LastUpgradeCheck = 1510;
+				LastUpgradeCheck = 1520;
 				TargetAttributes = {
 					F8948D372B4BF64700F6D4F2 = {
 						CreatedOnToolsVersion = 15.1;
@@ -130,9 +136,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8948D3C2B4BF64700F6D4F2 /* main.swift in Sources */,
+				E4086C002B51CB2100AB2B79 /* RemoveDuplicatesFromSortedList.swift in Sources */,
 				F87E5A4C2B4C05570033609D /* MergeSortedArrays.swift in Sources */,
 				F8948D432B4BF6A900F6D4F2 /* SearhInsertPosition.swift in Sources */,
 				F87E5A4A2B4C03610033609D /* ClimbStairs.swift in Sources */,
+				E48086CD2B540F2100BD3DE5 /* HappyNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +181,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -236,6 +245,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -261,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = V3UBZ96U5G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_TEAM = V3UBZ96U5G;
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
